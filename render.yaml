@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: system-info-server
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python server.py
